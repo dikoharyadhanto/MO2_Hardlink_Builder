@@ -1,0 +1,26 @@
+# Backups
+backup/
+backup2/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+bin/
+build/
+dist/
+*.spec
+
+# IDEs
+.idea/
+.vscode/
+
+# Project Specific
+output/
+builder_config.json
+standalone_metadata.json
+*.log
+Scripts/SKSE/
