@@ -1,4 +1,4 @@
-# MO2 Hardlink Builder & Environment Hijacker
+# MO2 Hardlink Builder
 
 A high-performance deployment tool designed to create **standalone, portable, and isolated** game environments from your Mod Organizer 2 setup.
 
@@ -81,6 +81,7 @@ Once deployed, go to your Standalone folder. You will see:
 
 ---
 
+<<<<<<< HEAD
 ## ⚠️ Safety & Constraints
 
 - **Static Snapshot:** This is a physical copy of your modlist. If you change your load order or add mods in MO2, you must **Rebuild** (Option 1).
@@ -93,3 +94,8 @@ Once deployed, go to your Standalone folder. You will see:
 
 - **Game Crashes?** Verify if the game runs through MO2 first. If it works in MO2 but not here, check the `build_report.html` for missing files.
 - **Large Disk Usage?** Ensure your Standalone folder is on the same drive as your mods. If they are on different drives, Windows must copy the files instead of hardlinking.
+=======
+### **Troubleshooting**
+* **Deployment Time:** ~3–5 minutes for 3500+ mods on an SSD.
+* **Bug Reporting:** Verify if your game runs in MO2 first. Only report issues if the game works in MO2 but fails specifically in this Standalone mode.
+>>>>>>> 37058d9c86ea37a9de8d3dc2ad16aba95646d27d
