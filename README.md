@@ -1,4 +1,4 @@
-# MO2 Hardlink Builder & Environment Hijacker
+# MO2 Hardlink Builder
 
 ### **Why I Created This Tool**
 The primary reason I created this tool was a simple desire: to run Skyrim directly without the "middleman" that is MO2.
